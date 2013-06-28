@@ -1,0 +1,47 @@
+%p.notice= notice
+
+%p
+  %strong Company
+  = @bcard.company
+
+
+%p
+  %strong Desc:
+  = @bcard.desc
+
+
+%p
+  %strong Phone:
+  = @bcard.phone
+
+/ <p>
+/   <b>Website:</b>
+/   <%= @bcard.website %>
+/ </p>
+
+/ <p>
+/   <b>City:</b>
+/   <%= @bcard.city %>
+/ </p>
+
+/ <p>
+/   <b>State:</b>
+/   <%= @bcard.state %>
+/ </p>
+
+/ <p>
+/   <b>Entered By:</b>
+/   <%= @bcard.entered_by %>
+/ </p>
+
+/ <p>
+/   <b>Notes:</b>
+/   <%= @bcard.notes %>
+/ </p>
+
+
+= link_to 'Edit', edit_bcard_path(@bcard) |
+= link_to 'Back', bcards_path
+= link_to 'Destroy', destroy_bcard(@bcard)
+
+

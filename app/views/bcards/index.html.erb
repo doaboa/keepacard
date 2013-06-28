@@ -8,10 +8,8 @@
     <th>Website</th>
     <th>City</th>
     <th>State</th>
-    <th>Contact name</th>
-    <th>Contact pos</th>
-    <th>Contact email</th>
-    <th>Contact tel</th>
+    <th>Entered by</th>
+    <th>Notes</th>
     <th></th>
     <th></th>
     <th></th>
@@ -25,10 +23,8 @@
     <td><%= bcard.website %></td>
     <td><%= bcard.city %></td>
     <td><%= bcard.state %></td>
-    <td><%= bcard.contact_name %></td>
-    <td><%= bcard.contact_pos %></td>
-    <td><%= bcard.contact_email %></td>
-    <td><%= bcard.contact_tel %></td>
+    <td><%= bcard.entered_by %></td>
+    <td><%= bcard.notes %></td>
     <td><%= link_to 'Show', bcard %></td>
     <td><%= link_to 'Edit', edit_bcard_path(bcard) %></td>
     <td><%= link_to 'Destroy', bcard, method: :delete, data: { confirm: 'Are you sure?' } %></td>

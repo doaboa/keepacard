@@ -7,10 +7,8 @@ class CreateBcards < ActiveRecord::Migration
       t.string :website
       t.string :city
       t.string :state
-      t.string :contact_name
-      t.string :contact_pos
-      t.string :contact_email
-      t.string :contact_tel
+      t.string :entered_by
+      t.string :notes
 
       t.timestamps
     end

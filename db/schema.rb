@@ -20,12 +20,10 @@ ActiveRecord::Schema.define(:version => 20130628190747) do
     t.string   "website"
     t.string   "city"
     t.string   "state"
-    t.string   "contact_name"
-    t.string   "contact_pos"
-    t.string   "contact_email"
-    t.string   "contact_tel"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.string   "entered_by"
+    t.string   "notes"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
