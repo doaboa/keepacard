@@ -1,4 +1,7 @@
 Keepacard::Application.routes.draw do
+  resources :bcards
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

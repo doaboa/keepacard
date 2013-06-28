@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @bcard.company %>
+</p>
+
+<p>
+  <b>Desc:</b>
+  <%= @bcard.desc %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @bcard.phone %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%= @bcard.website %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @bcard.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @bcard.state %>
+</p>
+
+<p>
+  <b>Contact name:</b>
+  <%= @bcard.contact_name %>
+</p>
+
+<p>
+  <b>Contact pos:</b>
+  <%= @bcard.contact_pos %>
+</p>
+
+<p>
+  <b>Contact email:</b>
+  <%= @bcard.contact_email %>
+</p>
+
+<p>
+  <b>Contact tel:</b>
+  <%= @bcard.contact_tel %>
+</p>
+
+
+<%= link_to 'Edit', edit_bcard_path(@bcard) %> |
+<%= link_to 'Back', bcards_path %>
